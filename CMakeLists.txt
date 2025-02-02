@@ -16,7 +16,7 @@ include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 
 # configure requirements
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 23)
 
 # setup target and directory names
 set(INCLUDE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/include")
